@@ -200,9 +200,6 @@ nav {
     .hero-image {
         display: none;
     }
-    .hero-button {
-
-    }
 }
 @media(max-width: 500px){
     .hero {
@@ -256,6 +253,12 @@ p {
         padding: 0;
         justify-content: center;
     }
+    .about {
+        margin-bottom: 50px;
+    }
+    .middle-img img {
+        width: 90%;
+    }
 }
 
 .more-info {
@@ -272,6 +275,18 @@ p {
     width: 30%;
     margin-bottom: 30px;
     margin-left: 10px;
+}
+
+@media(max-width: 500px) {
+    .more-info {
+        flex-direction: column;
+    }
+    .services , .product , .vision {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 0;
+    }
 }
 
 .footer {
